@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+
+
+body {
+    
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#telefone {
+    border: 3px solid rgb(5, 233, 115);
+    width: 311px;
+    height: 627px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
