@@ -1,13 +1,22 @@
 @charset "UTF-8";
 
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
+
+    background-image: url('util/imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #telefone {
+    background-image: url('util/imagens/frame-iphone.png');
     border: 3px solid rgb(5, 233, 115);
     width: 311px;
     height: 627px;
