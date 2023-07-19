@@ -14,6 +14,14 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+ iframe {
+    position: relative;
+    top: 80px;
+    left: 22px;
+
+    width: 269px;
+    height: 471px;
+ }
 
 #telefone {
     background-image: url('util/imagens/frame-iphone.png');
