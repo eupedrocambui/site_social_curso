@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
 
     background-image: url('util/imagens/fundo-madeira.jpg');
@@ -25,7 +25,7 @@ body {
 
 #telefone {
     background-image: url('util/imagens/frame-iphone.png');
-    border: 3px solid rgb(5, 233, 115);
+
     width: 311px;
     height: 627px;
 
@@ -38,4 +38,27 @@ body {
 .container {
     position: relative;
     height: 100vh;
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+
+    border-radius: 50%;
+
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+
+    box-shadow: 4px 6px 15px black;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+    box-sizing: border-box;
+    box-shadow: 4px 6px 15px black;
+    transform: translate(-3px, -3px);
 }
